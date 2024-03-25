@@ -203,7 +203,7 @@
 
 .title {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -439,10 +439,12 @@ video{
  
 }
 
-@media (max-width:991px) {
+@media (max-width:767px) {
     .about-us img{
-        bottom: -80px;
+        bottom: -50px;
     }
+
+ 
 
     
 }
@@ -456,9 +458,10 @@ video{
     /* height: 50vh;
     width: 100%; */
     position: relative;
-    padding: 100px 150px;
+    /* padding: 100px 150px; */
     /* display: grid; */
     z-index: -2;
+    padding: 80px 10px;
      
    
 }
@@ -476,7 +479,7 @@ video{
     
 
 }
-.box-container{
+.count .container{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
     background-color: var(--transparent-color);
@@ -484,7 +487,7 @@ video{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: auto auto;
+    /* margin: auto auto; */
 /* width: 970px; */
 }
 .box{
@@ -522,15 +525,16 @@ align-items: center;}
 /* start of pricing */
 
 .pricing{
-    padding: 50px;
+    padding: 50px 0;
     text-align: center;
+    /* margin: auto; */
 }
 .pric-container{
 display: grid;
 text-align: center;
-padding: 20px;
+/* padding: 20px; */
 /* margin: auto; */
-grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
 gap: 35px;
 justify-content: center;
 margin-bottom: 50px;
@@ -539,6 +543,7 @@ margin-bottom: 50px;
 
 .pric-card{
     background-color: #fcfcfc;
+    text-align: center;
 }
 .pric-card h3{
     font-size: 18px;
